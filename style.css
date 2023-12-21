@@ -1,0 +1,23 @@
+* {
+  background-color: lightblue;
+}
+.navbar {
+  max-width: var(--site-width);
+  padding: 0 var(--layout-padding);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: var(--header-height);
+}
+.logo {
+  padding: 8px 16px;
+  margin: 0px;
+  width: 230px;
+  border: none;
+  display: block;
+  outline: 0;
+}
+.link_nav {
+  text-color: white;
+}
